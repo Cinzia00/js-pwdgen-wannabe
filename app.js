@@ -1,6 +1,3 @@
-document.getElementById('nome-utente').innerHTML = 'Buona sera';
-
-
 //Chiedere nome utente
 let name = prompt('Inserisci il tuo nome');
 console.log(name)
@@ -23,4 +20,7 @@ console.log(number)
 
 let profiloUtente = name + lastName + color + parseFloat(number);
 
-console.log(profiloUtente)
+console.log()
+
+const divElement = document.getElementById('profiloUtente')
+divElement.innerHTML = profiloUtente
